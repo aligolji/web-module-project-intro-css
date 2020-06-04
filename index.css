@@ -21,7 +21,7 @@ vertical-align: baseline;
 box-sizing:border-box;
 max-width: 100%;
 
-border: 1px solid grey; 
+/*border: 1px solid grey;*/ 
 }
 
 html {
@@ -58,7 +58,7 @@ html {
     text-decoration: none;
     padding: .5rem 2.0rem; 
     vertical-align: middle;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .links {
@@ -68,37 +68,54 @@ html {
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+    margin: 3rem;
+    padding: 0 5rem;
 }
 
 #headerimg {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
     margin-left: 5rem;
+    margin-right: 5rem;
+    float: left;
 }
 
 .header-text {
-    width: 40%;
     text-align: center;
+    font-size: 2rem;
 }
 
+.p-first {
+    width: 60%;
+    margin-right: 2rem;
+    float: right;
+}
+
+.p-second {
+    width: 45%;
+    
+}
 .main-text {
     background-color: #ddb9a3;
-    margin: 0 4rem;
+    margin: 2rem 4rem;
     text-align: center;
     color: white;
     padding: 1rem;
     font-size: 1.7rem;
+    line-height: 2rem;
 }
 
 .main-p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-#fire-image {
-    height: 100px;
-    width: 100px;
-    align-content: center;
+.small-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 10rem;
 }
 
 .image-text {
@@ -108,11 +125,6 @@ h1 {
     font-size: 1.4rem;
     padding: 1rem 0;
     line-height: 1.5rem;
-}
-
-#van-image {
-    height: 100px;
-    width: 100px;
 }
 
 strong {
