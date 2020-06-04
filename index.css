@@ -19,6 +19,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;
 box-sizing:border-box;
+max-width: 100%;
 
 border: 1px solid grey; 
 }
@@ -29,6 +30,8 @@ html {
 
 body {
     font-size: 2rem;
+
+    background-image: image('footer_img.jpg');
 }
 
 #plan {
@@ -44,16 +47,62 @@ body {
 }
 
 
+.links a {
+    display: inline-block;
+    width: 25%;
+    height: 5rem;
+    border-radius: 15px;
+    margin: 3rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 1rem; 
+    vertical-align: middle;
+}
 
 
 #headerimg {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header-text {
+    width: 40%;
+    text-align: center;
 }
 
 .main-text {
     background-color: #ddb9a3;
+    margin: 0 4rem;
+    text-align: center;
+    color: white;
+    padding: .5rem;
 }
+
+#fire-image {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.fire-text {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+#van-image {
+    height: 100px;
+    width: 100px;
+}
+
+.van-text {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
 
 strong {
     font-weight: bold;
