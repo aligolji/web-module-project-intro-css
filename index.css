@@ -1,0 +1,152 @@
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0; 
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing:border-box;
+max-width: 100%;
+
+/*border: 1px solid grey;*/ 
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    max-height: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+#plan {
+    background-color: #ff764e;
+}
+
+#learn {
+    background-color: #5ed3eb;
+}
+
+#involved {
+    background-color: #ffcd69;
+}
+
+.links a {
+    display: inline-block;
+    width: 15%;
+    height: 5rem;
+    border-radius: 1rem;
+    margin: 3rem 7rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 2.0rem; 
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.links {
+    text-align: center;
+}
+
+.header-block {
+    width: 90rem;
+    margin: 5rem 5rem 0;
+}
+
+.top-picture {
+    float: left;
+    margin-left: 2rem;
+}
+
+#headerimg {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+.header-text {
+    text-align: right;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-right: 6rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.p-first {
+    font-size: 1.8rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
+.p-second {
+    width: 70rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.main-text {
+    background-color: #ddb9a3;
+    margin: 4rem 4rem 2rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.main-p {
+    margin-bottom: 2rem;
+}
+
+.small-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 10rem;
+}
+
+.image-text {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#footerimg {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f9e7dc;
+}
