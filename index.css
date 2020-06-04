@@ -51,8 +51,8 @@ html {
     display: inline-block;
     width: 15%;
     height: 5rem;
-    border-radius: 10px;
-    margin: 3rem 5rem;
+    border-radius: 1rem;
+    margin: 3rem 7rem;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -65,40 +65,51 @@ html {
     text-align: center;
 }
 
-h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
-    margin: 3rem;
-    padding: 0 5rem;
+.header-block {
+    width: 90rem;
+    margin: 5rem 5rem 0;
+}
+
+.top-picture {
+    float: left;
+    margin-left: 2rem;
 }
 
 #headerimg {
     width: 25rem;
     height: 25rem;
     border-radius: 50%;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    float: left;
 }
 
 .header-text {
-    text-align: center;
-    font-size: 2rem;
+    text-align: right;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-right: 6rem;
+    padding: 1rem 0rem 0rem 1rem;
 }
 
 .p-first {
-    width: 60%;
-    margin-right: 2rem;
-    float: right;
+    font-size: 1.8rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
 }
 
 .p-second {
-    width: 45%;
-    
+    width: 70rem;
+    font-size: 1.8rem;
+    text-align: center;
 }
+
 .main-text {
     background-color: #ddb9a3;
-    margin: 2rem 4rem;
+    margin: 4rem 4rem 2rem;
     text-align: center;
     color: white;
     padding: 1rem;
