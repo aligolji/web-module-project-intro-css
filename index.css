@@ -26,12 +26,13 @@ border: 1px solid grey;
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: auto;
 }
 
@@ -50,25 +51,31 @@ html {
 .links a {
     display: inline-block;
     width: 15%;
-    height: 4rem;
+    height: 5rem;
     border-radius: 10px;
-    margin: 2rem 5rem;
+    margin: 3rem 5rem;
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 0 2.0rem; 
+    padding: .5rem 2.0rem; 
     vertical-align: middle;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .links {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
 #headerimg {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
+    margin-left: 5rem;
 }
 
 .header-text {
@@ -82,6 +89,7 @@ html {
     text-align: center;
     color: white;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 #fire-image {
